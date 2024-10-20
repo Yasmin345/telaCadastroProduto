@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        font-family: "Roboto", sans-serif;
+        font-weight:bold;
+        font-style: normal;
+}
+
+.cabecalho{
+    background-color: #0099dd;
+    display: flex;
+    height: 90px;
+    font-size: 40px;
+    
+
+}
+
+.cadastrar{
+    display: flex;
+    margin-left: 15%;
+    border: red 1px solid;
+    justify-content: space-between;
+}
+
+.cadastrar p{
+    margin-top: 15px;
+    margin-left: 20px;
+}
