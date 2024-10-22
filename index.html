@@ -27,19 +27,19 @@
     <main>
         <div class="form">
             <form action="formulario" method="post">
-                <span id="completo">
+                <div id="completo">
                     <label>Nome do produto</label>
                     <input type="text" id="nome"><br>
-                </span>
+                </div>
 
-                <span id="completo">
+                <div id="completo">
                     <label>Descrição</label>
                     <input type="text" id="Descrição">
-                </span>
+                </div>
 
                 
                     <div class="line">
-                        <span id="curto">
+                        <div id="curto">
                             <label>Categoria</label>
                             <select name="categoria">
                             <option value="" disabled selected>Selecione um item</option>
@@ -48,36 +48,36 @@
                             <option value="Bebidas Alcoólicas">Bebidas Alcoólicas</option><br>
                             <option value="Limpeza Doméstica">Limpeza Doméstica</option>
                             </select>
-                        </span>
+                        </div>
 
-                        <span id="curto">
+                        <div id="curto">
                             <label> Quantidade</label>
                             <input type="number" id = "Quantidade">
-                        </span>
+                        </div>
                     </div>
 
                     <div class="line">
-                        <span id="curto">
+                        <div id="curto">
                             <label> Data de Fabricação</label>
                             <input type="date" id = "fabricação">
-                        </span>
+                        </div>
 
-                        <span id="curto">
+                        <div id="curto">
                             <label> Data de Validade</label>
                             <input type="date" id = "validade">
-                        </span>
+                        </div>
                     </div>
 
                     <div class="line">
-                        <span id="curto">
+                        <div id="curto">
                             <label>Preço de Compra</label>
                             <input type="text" id="valor" name="valor" placeholder="0,00" pattern="^\d+(\,\d{1,2})?$" title="Insira um valor em reais, por exemplo: 1000,00">
-                        </span>
+                        </div>
 
-                    <span id="curto">
+                    <div id="curto">
                         <label>Preço de Venda</label>
                         <input type="text" id="valor2" name="valor2" placeholder="0,00" pattern="^\d+(\,\d{1,2})?$" title="Insira um valor em reais, por exemplo: 1000,00">
-                    </span>
+                    </div>
                 </div>
                 <button type="submit">CADASTRAR</button>
             </form>

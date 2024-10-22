@@ -79,17 +79,16 @@ body {
 #completo {
     max-width: 100%;
     margin-top:15px;
-
+    display: grid;
 }
+
+
 
 #curto{
     width: 100%;
-}
-span{
     display: grid;
     margin-top: 30px;
 }
-
 
 
 button {
